@@ -1,0 +1,4 @@
+09:24:02.127  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+09:24:05.973  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+09:24:06.107  INFO  tests.TestBase - The name of starts method is --->loginWrongEmail
+09:24:13.524  INFO  tests.TestBase - Error message is : 'Wrong email or password' 
