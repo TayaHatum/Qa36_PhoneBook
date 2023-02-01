@@ -16,7 +16,6 @@ public class AddNewContactTests extends TestBase{
             app.getHelperUser().login(User.builder().email("noa@gmail.com").password("Nnoa12345$").build());
         }
     }
-
     @Test
     public void addContactSuccessAllFields(){
         Random random = new Random();
