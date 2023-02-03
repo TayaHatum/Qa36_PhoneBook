@@ -1,0 +1,74 @@
+23:56:01.276  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+23:56:03.319  INFO  manager.ListenerWD - The have a 'problem'
+23:56:03.321  INFO  manager.ListenerWD - ******************
+23:56:03.321  INFO  manager.ListenerWD - Method method ---> to
+23:56:03.321  INFO  manager.ListenerWD - ******************
+23:56:03.327  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=109.0.5414.119)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d16f61b1627fb1005a05720c8188834, get {url=https://telranedu.web.app}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/2f/zzc4g9ts1j9...}, goog:chromeOptions: {debuggerAddress: localhost:57963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57963/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d16f61b1627fb1005a05720c8188834
+23:56:03.327  INFO  manager.ListenerWD - ******************
+23:56:03.327  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation@1dbb650b
+23:56:03.328  INFO  manager.ListenerWD - ******************
+23:56:03.348  INFO  manager.ListenerTNG - onStart ---Gradle test
+23:56:03.413  INFO  manager.ListenerTNG - onTestStart ---addContactSuccessAllFields
+23:56:03.414  INFO  manager.ListenerTNG - onTestSkipped ---addContactSuccessAllFields
+23:56:03.416  INFO  manager.ListenerTNG - onTestStart ---addContactSuccessRequiredFields
+23:56:03.417  INFO  manager.ListenerTNG - onTestSkipped ---addContactSuccessRequiredFields
+23:56:03.417  INFO  manager.ListenerTNG - onTestStart ---addNewContactWrongAddress
+23:56:03.417  INFO  manager.ListenerTNG - onTestSkipped ---addNewContactWrongAddress
+23:56:03.418  INFO  manager.ListenerTNG - onTestStart ---addNewContactWrongEmail
+23:56:03.418  INFO  manager.ListenerTNG - onTestSkipped ---addNewContactWrongEmail
+23:56:03.419  INFO  manager.ListenerTNG - onTestStart ---addNewContactWrongLastName
+23:56:03.419  INFO  manager.ListenerTNG - onTestSkipped ---addNewContactWrongLastName
+23:56:03.421  INFO  manager.ListenerTNG - onTestStart ---addNewContactWrongName
+23:56:03.422  INFO  manager.ListenerTNG - onTestSkipped ---addNewContactWrongName
+23:56:03.422  INFO  manager.ListenerTNG - onTestStart ---addNewContactWrongPhone
+23:56:03.423  INFO  manager.ListenerTNG - onTestSkipped ---addNewContactWrongPhone
+23:56:03.435  INFO  manager.ListenerTNG - onTestStart ---loginSuccess
+23:56:03.436  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccess
+23:56:03.438  INFO  manager.ListenerTNG - onTestStart ---loginSuccess
+23:56:03.438  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccess
+23:56:03.444  INFO  manager.ListenerTNG - onTestStart ---loginSuccess
+23:56:03.445  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccess
+23:56:03.453  INFO  manager.ListenerTNG - onTestStart ---loginSuccess2
+23:56:03.455  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccess2
+23:56:03.456  INFO  manager.ListenerTNG - onTestStart ---loginSuccess2
+23:56:03.474  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccess2
+23:56:03.476  INFO  manager.ListenerTNG - onTestStart ---loginSuccess2
+23:56:03.477  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccess2
+23:56:03.482  INFO  manager.ListenerTNG - onTestStart ---loginSuccessModel
+23:56:03.483  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccessModel
+23:56:03.484  INFO  manager.ListenerTNG - onTestStart ---loginSuccessModel
+23:56:03.485  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccessModel
+23:56:03.486  INFO  manager.ListenerTNG - onTestStart ---loginSuccessModel
+23:56:03.491  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccessModel
+23:56:03.496  INFO  manager.ListenerTNG - onTestStart ---loginSuccessModelFromFile
+23:56:03.497  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccessModelFromFile
+23:56:03.500  INFO  manager.ListenerTNG - onTestStart ---loginSuccessModelFromFile
+23:56:03.501  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccessModelFromFile
+23:56:03.504  INFO  manager.ListenerTNG - onTestStart ---loginSuccessModelFromFile
+23:56:03.505  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccessModelFromFile
+23:56:03.506  INFO  manager.ListenerTNG - onTestStart ---loginSuccessNew
+23:56:03.508  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccessNew
+23:56:03.512  INFO  manager.ListenerTNG - onTestStart ---loginSuccessNew
+23:56:03.513  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccessNew
+23:56:03.515  INFO  manager.ListenerTNG - onTestStart ---loginUnregisterUser
+23:56:03.518  INFO  manager.ListenerTNG - onTestSkipped ---loginUnregisterUser
+23:56:03.519  INFO  manager.ListenerTNG - onTestStart ---loginWrongEmail
+23:56:03.520  INFO  manager.ListenerTNG - onTestSkipped ---loginWrongEmail
+23:56:03.520  INFO  manager.ListenerTNG - onTestStart ---loginWrongPassword
+23:56:03.521  INFO  manager.ListenerTNG - onTestSkipped ---loginWrongPassword
+23:56:03.525  INFO  manager.ListenerTNG - onTestStart ---registrationSuccess
+23:56:03.525  INFO  manager.ListenerTNG - onTestSkipped ---registrationSuccess
+23:56:03.526  INFO  manager.ListenerTNG - onTestStart ---registrationUserAlreadyExists
+23:56:03.528  INFO  manager.ListenerTNG - onTestSkipped ---registrationUserAlreadyExists
+23:56:03.529  INFO  manager.ListenerTNG - onTestStart ---registrationWrongEmail
+23:56:03.529  INFO  manager.ListenerTNG - onTestSkipped ---registrationWrongEmail
+23:56:03.534  INFO  manager.ListenerTNG - onTestStart ---registrationWrongPassword
+23:56:03.536  INFO  manager.ListenerTNG - onTestSkipped ---registrationWrongPassword
+23:56:03.550  INFO  manager.ListenerTNG - onFinish ---Gradle test

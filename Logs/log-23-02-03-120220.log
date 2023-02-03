@@ -1,0 +1,37 @@
+12:02:25.563  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+12:02:27.074  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+12:02:27.076  INFO  manager.ListenerTNG - onStart ---Gradle test
+12:02:27.089  INFO  tests.TestBase - The name of starts method is --->loginWrongEmail
+12:02:27.090  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:02:32.150  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+12:02:32.152  INFO  manager.ListenerWD - List suze is --> 0
+12:02:32.152  INFO  manager.ListenerTNG - onTestStart ---loginWrongEmail
+12:02:32.155  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+12:02:32.177  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+12:02:32.209  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+12:02:32.221  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+12:02:32.554  INFO  manager.ListenerWD - Before find element --> By.name: email
+12:02:32.571  INFO  manager.ListenerWD - After find element --> By.name: email
+12:02:33.021  INFO  manager.ListenerWD - Before find element --> By.name: password
+12:02:33.034  INFO  manager.ListenerWD - After find element --> By.name: password
+12:02:33.164  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+12:02:33.178  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+12:03:15.052  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:03:15.104  INFO  manager.ListenerWD - The have a 'problem'
+12:03:15.105  INFO  manager.ListenerWD - ******************
+12:03:15.106  INFO  manager.ListenerWD - Method method ---> findElements
+12:03:15.107  INFO  manager.ListenerWD - ******************
+12:03:15.114  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=109.0.5414.119): Wrong email or password
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3abd68516164e2bd4733ed7bfe10a50, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/2f/zzc4g9ts1j9...}, goog:chromeOptions: {debuggerAddress: localhost:55338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55338/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3abd68516164e2bd4733ed7bfe10a50
+12:03:15.117  INFO  manager.ListenerWD - ******************
+12:03:15.119  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (e3abd68516164e2bd4733ed7bfe10a50)
+12:03:15.119  INFO  manager.ListenerWD - ******************
+12:03:15.139  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-123.png
+12:04:25.777  INFO  manager.ListenerTNG - onTestFailure ---loginWrongEmail
+12:04:25.779  INFO  manager.ListenerTNG - onFinish ---Gradle test

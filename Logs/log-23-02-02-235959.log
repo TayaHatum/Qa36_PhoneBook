@@ -1,0 +1,96 @@
+00:00:05.480  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+00:00:07.023  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+00:00:07.041  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+00:00:07.042  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+00:00:12.094  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+00:00:12.096  INFO  manager.ListenerWD - List suze is --> 0
+00:00:12.099  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+00:00:12.121  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+00:00:12.152  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+00:00:12.162  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+00:00:12.584  INFO  manager.ListenerWD - Before find element --> By.name: email
+00:00:12.615  INFO  manager.ListenerWD - After find element --> By.name: email
+00:00:13.160  INFO  manager.ListenerWD - Before find element --> By.name: password
+00:00:13.191  INFO  manager.ListenerWD - After find element --> By.name: password
+00:00:13.311  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+00:00:13.324  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+00:00:13.408  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+00:00:14.820  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+00:00:14.820  INFO  manager.ListenerWD - List suze is --> 1
+00:00:14.824  INFO  tests.TestBase - The name of starts method is --->registrationUserAlreadyExists
+00:00:14.824  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+00:00:14.834  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+00:00:14.834  INFO  manager.ListenerWD - List suze is --> 1
+00:00:14.834  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+00:00:14.848  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+00:00:14.905  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+00:00:14.915  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+00:00:14.928  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+00:00:14.937  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+00:00:14.983  INFO  manager.ListenerWD - Before find element --> By.name: email
+00:00:14.995  INFO  manager.ListenerWD - After find element --> By.name: email
+00:00:15.129  INFO  manager.ListenerWD - Before find element --> By.name: password
+00:00:15.152  INFO  manager.ListenerWD - After find element --> By.name: password
+00:00:15.329  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+00:00:15.355  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+00:00:15.450  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+00:00:15.624  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+00:00:15.629  INFO  manager.ListenerWD - List suze is --> 0
+00:00:15.644  INFO  tests.TestBase - The name of starts method is --->registrationWrongEmail
+00:00:15.644  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+00:00:20.758  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+00:00:20.758  INFO  manager.ListenerWD - List suze is --> 0
+00:00:20.759  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+00:00:20.785  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+00:00:20.796  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+00:00:20.813  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+00:00:20.864  INFO  manager.ListenerWD - Before find element --> By.name: email
+00:00:20.890  INFO  manager.ListenerWD - After find element --> By.name: email
+00:00:21.037  INFO  manager.ListenerWD - Before find element --> By.name: password
+00:00:21.050  INFO  manager.ListenerWD - After find element --> By.name: password
+00:00:21.393  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+00:00:21.402  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+00:00:21.663  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+00:00:21.722  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+00:00:21.722  INFO  manager.ListenerWD - List suze is --> 0
+00:00:21.736  INFO  tests.TestBase - The name of starts method is --->registrationWrongPassword
+00:00:21.736  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+00:00:26.841  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+00:00:26.841  INFO  manager.ListenerWD - List suze is --> 0
+00:00:26.841  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+00:00:26.850  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+00:00:26.858  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+00:00:26.865  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+00:00:26.891  INFO  manager.ListenerWD - Before find element --> By.name: email
+00:00:26.899  INFO  manager.ListenerWD - After find element --> By.name: email
+00:00:27.136  INFO  manager.ListenerWD - Before find element --> By.name: password
+00:00:27.161  INFO  manager.ListenerWD - After find element --> By.name: password
+00:00:27.729  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+00:00:27.780  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+00:00:28.176  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+00:00:28.200  INFO  manager.ListenerWD - The have a 'problem'
+00:00:28.200  INFO  manager.ListenerWD - ******************
+00:00:28.200  INFO  manager.ListenerWD - Method method ---> findElements
+00:00:28.200  INFO  manager.ListenerWD - ******************
+00:00:28.201  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=109.0.5414.119): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5dbed337ffe03498e1c7665140400f32, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/2f/zzc4g9ts1j9...}, goog:chromeOptions: {debuggerAddress: localhost:58164}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58164/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5dbed337ffe03498e1c7665140400f32
+00:00:28.202  INFO  manager.ListenerWD - ******************
+00:00:28.202  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (5dbed337ffe03498e1c7665140400f32)
+00:00:28.202  INFO  manager.ListenerWD - ******************
+00:00:28.202  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-559.png

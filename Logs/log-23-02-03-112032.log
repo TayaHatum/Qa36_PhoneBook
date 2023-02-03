@@ -1,0 +1,35 @@
+11:20:35.459  INFO  manager.ApplicationManager - All tests star in FireFox Browser
+11:20:36.767  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+11:20:36.770  INFO  manager.ListenerTNG - onStart ---Gradle test
+11:20:36.782  INFO  tests.TestBase - The name of starts method is --->loginUnregisterUser
+11:20:36.783  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:20:41.807  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:20:41.809  INFO  manager.ListenerWD - List suze is --> 0
+11:20:41.810  INFO  manager.ListenerTNG - onTestStart ---loginUnregisterUser
+11:20:41.815  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:20:41.828  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:20:41.846  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:20:41.854  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:20:42.106  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:20:42.116  INFO  manager.ListenerWD - After find element --> By.name: email
+11:20:42.412  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:20:42.422  INFO  manager.ListenerWD - After find element --> By.name: password
+11:20:42.666  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+11:20:42.675  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+11:20:42.899  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:20:43.836  INFO  manager.ListenerWD - The have a 'problem'
+11:20:43.836  INFO  manager.ListenerWD - ******************
+11:20:43.836  INFO  manager.ListenerWD - Method method ---> findElements
+11:20:43.836  INFO  manager.ListenerWD - ******************
+11:20:43.837  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.WebDriverException: Failed to interpret value as array
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '11.0.18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d89920c3-09c1-4260-84b8-69f6ab878c6c, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:26411, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.3.0, moz:processID: 7350, moz:profile: /var/folders/2f/zzc4g9ts1j9..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:26411/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d89920c3-09c1-4260-84b8-69f6ab878c6c
+11:20:43.837  INFO  manager.ListenerWD - ******************
+11:20:43.837  INFO  manager.ListenerWD - Object target --->FirefoxDriver: firefox on MAC (d89920c3-09c1-4260-84b8-69f6ab878c6c)
+11:20:43.837  INFO  manager.ListenerWD - ******************
+11:20:43.849  INFO  manager.ListenerTNG - onTestFailure ---loginUnregisterUser
+11:20:43.850  INFO  manager.ListenerTNG - onFinish ---Gradle test

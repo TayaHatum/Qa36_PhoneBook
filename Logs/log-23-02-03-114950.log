@@ -1,0 +1,1 @@
+11:49:50.994  INFO  tests.TestBase - Tests start with data : Contact(name=Lisa1171, lastName=Simpson, email=lisa1171@mail.ru, address=NY, phone=11111111171, description=All fields)

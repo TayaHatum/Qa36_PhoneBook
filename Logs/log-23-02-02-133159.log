@@ -1,0 +1,4 @@
+13:32:07.304  INFO  manager.ListenerTNG - onStart ---Gradle test
+13:32:07.319  INFO  manager.ListenerTNG - onTestStart ---loginWrongEmail
+13:32:07.320  INFO  manager.ListenerTNG - onTestSkipped ---loginWrongEmail
+13:32:07.321  INFO  manager.ListenerTNG - onFinish ---Gradle test
