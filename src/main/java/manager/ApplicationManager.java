@@ -32,6 +32,9 @@ public class ApplicationManager {
             logger.info("All tests star in FireFox Browser");
         } else if (browser.equals(Browser.IE.browserName())) {
             wd = new InternetExplorerDriver();
+        } else if  (browser.equals(Browser.EDGE.browserName())) { // firefox === firefox
+            wd = new FirefoxDriver();
+            logger.info("All tests star in FireFox Browser");
         }
 
         WebDriverListener listener=new ListenerWD();

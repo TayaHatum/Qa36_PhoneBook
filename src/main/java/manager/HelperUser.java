@@ -19,8 +19,8 @@ public class HelperUser extends HelperBase {
     public void openLoginRegistrationForm() {
         new WebDriverWait(wd, Duration.ofSeconds(5))
                 .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("a[href='/login']"))));
-        click(By.cssSelector("a[href='/login']"));
-        // click(By.cssSelector("a[href='/l']"));
+        //click(By.cssSelector("a[href='/login']"));
+         click(By.cssSelector("a[href='/l']"));
     }
 
     public void fillLoginRegistrationForm(String email, String password) {
