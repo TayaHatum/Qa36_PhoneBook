@@ -1,0 +1,26 @@
+09:22:14.415  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+09:22:15.608  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+09:22:15.631  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+09:22:15.632  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+09:22:20.670  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+09:22:20.672  INFO  manager.ListenerWD - List suze is --> 0
+09:22:20.675  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+09:22:20.690  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+09:22:20.706  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/l']
+09:22:25.751  INFO  manager.ListenerWD - The have a 'problem'
+09:22:25.752  INFO  manager.ListenerWD - ******************
+09:22:25.752  INFO  manager.ListenerWD - Method method ---> findElement
+09:22:25.752  INFO  manager.ListenerWD - ******************
+09:22:25.752  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/l']"}
+  (Session info: chrome=110.0.5481.77)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [623df2d031a006fffc13e4ffb86802a9, findElement {using=css selector, value=a[href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/2f/zzc4g9ts1j9...}, goog:chromeOptions: {debuggerAddress: localhost:53591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53591/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 623df2d031a006fffc13e4ffb86802a9
+09:22:25.753  INFO  manager.ListenerWD - ******************
+09:22:25.753  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (623df2d031a006fffc13e4ffb86802a9)
+09:22:25.753  INFO  manager.ListenerWD - ******************
+09:22:25.753  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-949.png
