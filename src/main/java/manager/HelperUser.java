@@ -21,6 +21,7 @@ public class HelperUser extends HelperBase {
                 .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("a[href='/login']"))));
         click(By.cssSelector("a[href='/login']"));
          //click(By.cssSelector("a[href='/l']"));
+        // for jenkins
     }
 
     public void fillLoginRegistrationForm(String email, String password) {
